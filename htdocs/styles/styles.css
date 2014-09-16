@@ -1,5 +1,4 @@
 body {
-/*  min-height: 2000px;*/
 }
 body>.container{
   margin-top:110px;
@@ -7,7 +6,6 @@ body>.container{
 .header{
   border:none;
 }
-
 .logo img{
   width:90px;
   height:90px;
@@ -42,6 +40,16 @@ body>.container{
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
   src='../images/home-bg.png',
   sizingMethod='scale')";
+}
+.we-install{
+  margin-top:180px;
+  height:350px;
+  background-color:#f2721b;
+}
+.we-install h2{
+  color:#070836;
+  font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue";
+  text-align:center;
 }
 .footer{
   position:absolute;
