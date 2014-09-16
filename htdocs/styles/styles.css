@@ -25,11 +25,10 @@ body>.container{
 }
 .section{
   height:724px;
-  border-bottom: solid black 1px;
 }
 .home.section{
   margin-top:110px;
-  background:url("../images/home-bg.png") no-repeat center center;
+  background:url("../images/home-bg.png") no-repeat center 95%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,6 +39,18 @@ body>.container{
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
   src='../images/home-bg.png',
   sizingMethod='scale')";
+}
+.safety{
+  background-color:white;
+}
+.safety-quote-text{
+  color:#070836;
+}
+.safety-quotes{
+  color:#f2721b;
+}
+.about-us{
+  background-color:#f2721b;
 }
 .we-install{
   margin-top:180px;
