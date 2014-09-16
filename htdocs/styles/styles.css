@@ -1,0 +1,19 @@
+body {
+  min-height: 2000px;
+}
+
+.navbar a{
+  color:white;
+}
+.navbar-fixed-top {
+  height:100px;
+  background-color:#070836;
+}
+
+.nav{
+  margin-top:25px;
+}
+
+.section{
+  height:724px;
+}
