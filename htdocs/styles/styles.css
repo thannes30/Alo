@@ -62,6 +62,22 @@ body>.container{
   font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue";
   text-align:center;
 }
+
+
+.faq.section{
+  margin-top:110px;
+  background:url("../images/climbers.png") no-repeat center 95%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='images/logo.gif',
+  sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='../images/home-bg.png',
+  sizingMethod='scale')";
+}
 .footer{
   position:absolute;
   bottom:0;
