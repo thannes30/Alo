@@ -32,7 +32,7 @@ body>.container{
 }
 .home.section{
   margin-top:110px;
-  /*background:url("../images/home-bg.png") no-repeat center 50%;
+  background:url("../images/home-bg.png") no-repeat center 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,7 +42,7 @@ body>.container{
   sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
   src='../images/home-bg.png',
-  sizingMethod='scale')";*/
+  sizingMethod='scale')";
 }
 .safety{
   background-color:white;
@@ -91,10 +91,14 @@ body>.container{
 
 
 /*carousel styles*/
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter: progid:none !important;
+}
 .specialized{
     margin: 0;
     color: #070836;
-    padding-top: 127px;
+    padding-top: 135px;
     font-size: 3em;
     font-family: "HelveticaNeue-CondensedBold", sans-serif;
 }
