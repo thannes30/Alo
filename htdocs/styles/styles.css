@@ -45,16 +45,40 @@ body>.container{
   sizingMethod='scale')";
 }
 .safety{
+  margin-top:80px;
+  min-height:60px;
+  text-align:center;
   background-color:white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* IE 8 */
+  filter: alpha(opacity=70); /* IE 5-7 */
+  -moz-opacity: 0.7; /* Netscape */
+  -khtml-opacity: 0.7; /* Safari 1.x */
+  opacity: 0.7; /* Good browsers */
 }
-.safety-quote-text{
+.safety h3{
+  padding:12px 10px 12px 10px;
+  letter-spacing:1px;
+  font-style:italic;
+  font-weight:900;
   color:#070836;
+  font-size:2.3em;
+  font-family: 'Crimson Text', serif;
 }
 .safety-quotes{
   color:#f2721b;
+  font-family: 'Crimson Text', serif;
 }
 .about-us{
-  background-color:#f2721b;
+  background:rgba(242, 114, 27, 0.8);
+}
+.about-us-text h1{
+  font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue";
+  text-align:center;
+  margin:50px 0 50px 0;
+}
+.about-us-text p{
+  font-family:"HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height:200%;
 }
 .we-install{
   margin-top:180px;
@@ -64,6 +88,7 @@ body>.container{
 .dismantle{
   padding-top:5%;
   color:#fff;
+  letter-spacing:.8px;
   font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue";
   text-align:center;
 }
