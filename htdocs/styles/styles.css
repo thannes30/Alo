@@ -27,10 +27,8 @@ body>.container{
 .nav{
   margin-top:30px;
 }
-.section{
-  height:724px;
-}
 .home.section{
+  height:724px;
   margin-top:110px;
   background:url("../images/home-bg.png") no-repeat center 50%;
   -webkit-background-size: cover;
@@ -115,7 +113,11 @@ body>.container{
   font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue";
   text-align:center;
 }
+.work{
+  height:724px;
+}
 .faq.section{
+  min-height:724px;
   background:url("../images/climbers.png") no-repeat center 95%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -133,34 +135,12 @@ body>.container{
   font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica,sans-serif;
   color:#070836;
 }
-.questionsanswers{
-  /*height:600px;*/
-  /*border: 1px solid black;*/
-}
-/*.questions{
-  background-color:rgba(7, 8, 54, 0.7);
-  background-color:rgba(7, 8, 54);
-  height:600px;
-}*/
-.questions ul{
-  list-style: none;
-  color:#fff;
-  font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica,sans-serif;
-/*  height:600px;*/
-  margin-right:-15px;
-}
-.questions li{
-  padding:25px 25px 0px 40px;
-  background-color:rgba(7, 8, 54, 0.7);
-  background-color:rgba(7, 8, 54);
-  height:67px;
-  border:solid 1px yellow;
-}
-.answers{
-  background-color:#f2721b;
-  height:600px;
-}
+/*li.close{
 
+}*/
+.contact{
+  height:724px;
+}
 .footer{
   position:absolute;
   bottom:0;
@@ -190,6 +170,40 @@ body>.container{
 .carousel{
     margin-top: -76px;
 }
-.bs-example{
-  /*margin: -3px 20px -1px -15px;*/
-}/*end carousel */
+/*end carousel */
+
+
+/*collapsable faq*/
+.faq_question {
+  width:100%;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline-block;
+  cursor: pointer;
+  color:#fff;
+  font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica,sans-serif;
+  border-bottom:solid 3px #f2721b;
+}
+.faq_answer{
+  color:#070836;
+  background-color:#f2721b;
+}
+.faq_container{
+  /*padding:20px;*/
+  text-align:center;
+  background-color:rgba(7, 8, 54, 0.7);
+  background-color:rgba(7, 8, 54);
+  color:white;
+  /*min-height:67px;*/
+}
+.faq_answer_container {
+  height: 0px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.answer{
+  color:#070836;
+  background-color:#f2721b;
+  display:none;
+}
