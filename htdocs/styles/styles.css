@@ -128,6 +128,39 @@ body>.container{
   src='../images/home-bg.png',
   sizingMethod='scale')";
 }
+.faq h1{
+  text-align:center;
+  font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica,sans-serif;
+  color:#070836;
+}
+.questionsanswers{
+  /*height:600px;*/
+  /*border: 1px solid black;*/
+}
+/*.questions{
+  background-color:rgba(7, 8, 54, 0.7);
+  background-color:rgba(7, 8, 54);
+  height:600px;
+}*/
+.questions ul{
+  list-style: none;
+  color:#fff;
+  font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica,sans-serif;
+/*  height:600px;*/
+  margin-right:-15px;
+}
+.questions li{
+  padding:25px 25px 0px 40px;
+  background-color:rgba(7, 8, 54, 0.7);
+  background-color:rgba(7, 8, 54);
+  height:67px;
+  border:solid 1px yellow;
+}
+.answers{
+  background-color:#f2721b;
+  height:600px;
+}
+
 .footer{
   position:absolute;
   bottom:0;
