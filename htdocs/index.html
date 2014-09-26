@@ -31,7 +31,7 @@
             <li><a href="#two">ABOUT US</a></li>
             <li><a href="#three">WORK</a></li>
             <li><a href="#four">FAQ</a></li>
-            <li><a href="../employees/index.html">EMPLOYEES</a></li>
+            <li><a href="../protect/employees/">EMPLOYEES</a></li>
             <li><a href="#five">CONTACT</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -137,7 +137,7 @@
           <div class="container">
             <div class="row">
             <h1>FAQ</h1>
-            <div class="faq_container col-center col-lg-10 col-md-10 col-sm-11 col-xs-11">
+            <div class="faq_container col-center col-lg-8 col-md-8 col-sm-11 col-xs-11">
               <div class="faq">
                 <div class="faq_question"><h4>What services does Alo Cinema One, Inc. provide?</h4></div>
                    <div class="faq_answer_container">
@@ -203,17 +203,71 @@
         </div>
       </div>
       <div class="contact section" id="five">
-        <h1>contact</h1>
+        <div class="container">
+          <div class="row contact-content">
+            <div class="map col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <h2>FIND US</h2>
+              <div id="google-map">
+                <!-- map here -->
+              </div>
+            </div>
+            <div class="contact-form col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <h2>CONTACT US</h2>
+              <form>
+                <div class="form-group">
+                  <form name="contactform" method="post" action="http://wedding-space.net/01_admin_resources/blog/contact_form/mailer.php" class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="inputName" class="col-lg-3 col-md-3 col-sm-10 col-xs-10 control-label">Name</label>
+                <div class="">
+                  <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail1" class="col-lg-3 control-label">Email</label>
+                <div class="">
+                  <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputSubject" class="col-lg-3 control-label">Subject</label>
+                <div class="">
+                  <input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword1" class="col-lg-3 control-label">Message</label>
+                <div class="">
+                  <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                  <button class="submit-button" type="submit" class="btn btn-default">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
         <div class="footer">
           <div class="container">
+            <div class="row">
+             
+            </div>
           </div>
         </div>
       </div>
     <!-- </div> --> <!-- /container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/faq.js"></script>
+    <script src="scripts/map.js"></script>
     <!-- IE10 viewport hack desktop Windows 8 bug -->
     <script src="scripts/ie10-workaround.js"></script>
   </body>
