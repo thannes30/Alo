@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Access - Alo Cinema Installers Employees Only"
+AuthUserFile /Users/thannes/Sites/AloCinemaInstallers/htdocs/employees/.htpasswd
+Require valid-user

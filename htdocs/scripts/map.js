@@ -26,7 +26,7 @@ function initialize() {
       map: map,
       title: 'Alo Cinema One Installers'
   });
-  map.setCenter(new google.maps.LatLng(40.895, -74.037294)); 
+  map.setCenter(new google.maps.LatLng(40.895, -74.037294));
   infowindow.open(map,marker);
 }
 
