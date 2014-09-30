@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail = "mary@alocinema.com";
+$myemail = "timhannes3@gmail.com";
 
 /* Check all form inputs using check_input function */
 $name = check_input($_POST['inputName'], "Your Name");
@@ -15,11 +15,11 @@ show_error("Invalid e-mail address");
 }
 /* Let's prepare the message for the e-mail */
 
-$subject = "Someone has sent you a message";
+$email_subject = "Someone has contacted you via www.alocinema.com";
 
 $message = "
 
-Someone has sent you a message using your contac form:
+Someone has sent you a message using your contact form:
 
 Name: $name
 Email: $email
@@ -31,10 +31,10 @@ $message
 ";
 
 /* Send the message using mail() function */
-mail($myemail, $subject, $message);
+mail($myemail, $email_subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: http://address-of-confirmation-page.html');
+header('Location: alocinemainstallers.dev');
 exit();
 
 /* Functions we used */
