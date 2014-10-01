@@ -95,7 +95,7 @@
 
 
     // Labels
-    'showLabels' : true,
+    'showLabels' : false,
 
     'labelWidth': 20,
 

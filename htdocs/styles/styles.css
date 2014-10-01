@@ -1,6 +1,10 @@
 body {
 }
-
+.doc-list{
+  width:90%;
+  margin:0 auto;
+  text-align: center;
+}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color:#f2721b;
 }
@@ -155,6 +159,7 @@ body>.container{
   opacity:.70;*/
 }
 #map{
+  margin: 0 auto;
 }
 .faq.section{
   min-height:724px;
@@ -188,7 +193,7 @@ body>.container{
   padding-bottom:30px;
 }
 .map-container{
-
+  margin:0 auto;
 }
 #google-map{
   margin: 0 auto;
@@ -263,8 +268,35 @@ body>.container{
 .carousel{
     margin-top: -76px;
 }
+
+.we-work{
+  color:#070836;
+  font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica,sans-serif;
+}
 /*end carousel */
 
+/*.a2, .a3, .a4, .a5{
+  display:none;
+}*/
+.hide{
+  display:none;
+}
+
+.faq_qs{
+  background-color:rgba(7, 8, 54, 0.7);
+  background-color:rgba(7, 8, 54);
+  cursor: pointer;
+  color:#fff;
+  font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica,sans-serif;
+  height:600px;
+}
+.faq_qs h4{
+  padding:15px 0 0 0;
+}
+.faq_as{
+  background-color:#f2721b;
+  height:600px;
+}
 
 /*collapsable faq*/
 .faq_question {
@@ -306,6 +338,8 @@ body>.container{
   background-color:#070836;
 }
 
+
+
 /*bootstrap media queries*/
 @media(max-width:767px){
   .address{
@@ -315,8 +349,12 @@ body>.container{
   padding:35px 0px 0px 0px;
   }
   #map{
+    width:250px;
+    height:180px;
+  }
+  #google-map{
     width:300px;
-    height:200px;
+    height:300px;
   }
 }
 @media(min-width:768px){
