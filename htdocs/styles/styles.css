@@ -145,18 +145,6 @@ body>.container{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- /* filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-  src='../images/blueprint-lg.png',
-  sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-  src='../images/blueprint-lg.png',
-  sizingMethod='scale')";
-  -khtml-opacity:.70;
-  -moz-opacity:.70;
-  -ms-filter:"alpha(opacity=70)";
-  filter:alpha(opacity=70);
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.7);
-  opacity:.70;*/
 }
 #map{
   margin: 0 auto;
@@ -302,11 +290,35 @@ body>.container{
   height:600px;
 }
 .faq_qs h4{
-  padding:15px 0 0 0;
+  margin:0px -15px 0px -15px;
+  padding:20px 0px 0px 15px;
+  height:60px;
 }
 .faq_as{
   background-color:#f2721b;
   height:600px;
+}
+.faq_as p{
+  /*margin-top:250px;*/
+  padding:0px 10px 0 10px;
+  line-height:1.6;
+  font-size:1.5em;
+  font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica,sans-serif;
+}
+
+.smallp{
+  margin-top:240px;
+}
+.mediump{
+  margin-top:200px;
+}
+.largep{
+ margin-top:150px;
+}
+
+.faq_qs h4.active{
+  background-color:#f2721b;
+  color:#070836;
 }
 
 /*collapsable faq*/
