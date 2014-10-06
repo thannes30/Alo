@@ -280,7 +280,6 @@ body>.container{
 .hide{
   display:none;
 }
-
 .faq_qs{
   background-color:rgba(7, 8, 54, 0.7);
   background-color:rgba(7, 8, 54);
@@ -292,14 +291,16 @@ body>.container{
 .faq_qs h4{
   margin:0px -15px 0px -15px;
   padding:20px 0px 0px 15px;
+  font-size:1.4em;
   height:60px;
 }
 .faq_as{
   background-color:#f2721b;
   height:600px;
+  color:#070836;
 }
 .faq_as p{
-  /*margin-top:250px;*/
+  color:#070836;
   padding:0px 10px 0 10px;
   line-height:2.0;
   font-size:1.5em;
@@ -307,13 +308,13 @@ body>.container{
 }
 
 .smallp{
-  margin-top:240px;
+  margin-top:230px;
 }
 .mediump{
-  margin-top:200px;
+  margin-top:190px;
 }
 .largep{
- margin-top:150px;
+ margin-top:80px;
 }
 
 .faq_qs h4.active{
@@ -360,8 +361,13 @@ body>.container{
 .navbar-collapse{
   background-color:#070836;
 }
-
-
+.navbar-default .navbar-toggle{
+  border-color:#fff;
+  background-color:#f2721b;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color:#070836;
+}
 
 /*bootstrap media queries*/
 @media(max-width:767px){
