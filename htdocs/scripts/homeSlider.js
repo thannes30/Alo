@@ -11,5 +11,5 @@ $active.css('z-index',1).show().removeClass('active');//reset the z-index and un
 $(window).load(function(){
 $('#background_cycler').fadeIn(1500);//fade the background back in once all the images are loaded
   // run every 7s
-  setInterval('cycleImages()', 7000);
+  setInterval('cycleImages()', 5000);
 })
