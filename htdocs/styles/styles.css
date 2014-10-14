@@ -39,7 +39,7 @@ body>.container{
 .home.section{
   height:724px;
   margin-top:110px;
-  background:url("../images/home-bg.png") no-repeat center;
+  /*background:url("../images/home-bg.png") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -55,7 +55,7 @@ body>.container{
   -ms-filter:"alpha(opacity=90)";
   filter:alpha(opacity=90);
   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.9);
-  opacity:.90;
+  opacity:.90;*/
 }
 .safety{
   margin-top:80px;
@@ -407,3 +407,8 @@ body>.container{
     height:450px;
   }
 }
+
+/*background fade in/out*/
+#background_cycler{margin-top:110px;margin:0;width:100%;position:absolute;top:0;left:0;z-index:-1}
+#background_cycler img{margin-top:110px;height:724px;position:absolute;left:0;top:0;width:100%;z-index:1}
+#background_cycler img.active{z-index:3}

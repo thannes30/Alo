@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Crimson+Text:700italic' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   <body>
     <!-- navbar -->
@@ -41,6 +42,17 @@
 
       <!-- begin carousel -->
       <div class="home section" id="one">
+
+        <div id="background_cycler">
+          <script type="text/javascript">
+            $('#background_cycler').hide();
+          </script>
+          <img src="images/plane.jpg" class="active">
+          <img src="images/warehouse1.jpg" alt="">
+          <img src="images/warehouse2.jpg" alt="">
+          <img src="images/home-bg.png" alt="">
+        </div>
+
         <div class="container">
           <div class="row">
             <div class="we-install col-center col-lg-8 col-md-8 col-sm-11 col-xs-11">
@@ -323,7 +335,6 @@
         </div>
       </div><!-- end contact -->
     <!-- js libraries -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
     <script src="scripts/lib/raphael.js"></script>
     <script src="scripts/lib/jquery.usmap.js"></script>
@@ -334,6 +345,7 @@
     <script src="scripts/faqMobile.js"></script>
     <script src="scripts/faq.js"></script>
     <script src="scripts/map.js"></script>
+    <script src="scripts/homeSlider.js"></script>
     <!-- IE10 viewport hack desktop Windows 8 bug -->
     <script src="scripts/lib/ie10-workaround.js"></script>
   </body>
