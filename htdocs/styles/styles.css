@@ -1,5 +1,6 @@
 body {
 }
+/*unset bs3 settings*/
 .doc-list{
   width:90%;
   margin:0 auto;
@@ -139,7 +140,6 @@ body>.container{
   color:#070836;
 }
 .work.section{
-  height:724px;
   background:url("../images/blueprint-lg.png") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -167,6 +167,7 @@ body>.container{
   text-align:center;
   font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica,sans-serif;
   color:#070836;
+  margin:30px 0 30px 0;
 }
 .contact{
   min-height:724px;
@@ -263,6 +264,7 @@ body>.container{
   font-family:"HelveticaNeue-CondensedBold", 'Helvetica', sans-serif;
   text-align:center;
   padding:10px;
+  margin-bottom:15px;
 }
 .we-work ul{
   list-style: none;
@@ -375,7 +377,7 @@ body>.container{
   padding:35px 0px 0px 0px;
   }
   .footer-contact{
-  padding:35px 0px 0px 0px;
+  padding:35px 0px 0px 50px;
   }
   #map{
     width:250px;
@@ -412,3 +414,13 @@ body>.container{
 #background_cycler{margin-top:110px;margin:0;width:100%;position:absolute;top:0;left:0;z-index:-1}
 #background_cycler img{margin-top:110px;height:724px;position:absolute;left:0;top:0;width:100%;z-index:1}
 #background_cycler img.active{z-index:3}
+
+/*#myModal{
+  margin-top:-120px;
+}
+*/
+.footer-contact img{
+  width:95px;
+  height:68px;
+  margin-left:20px;
+}
