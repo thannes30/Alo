@@ -13,8 +13,6 @@ function fadeInHome(){
 }
 
 $(window).load(function(){
-  $('#background_cycler').hide();
-  $('.we-install, .safety').hide();
   $('#background_cycler').fadeIn(1000);//fade the background back in once all the images are loaded
     // run every 3.5s
     setInterval('cycleImages()', 4000);
