@@ -113,7 +113,7 @@ body>.container{
   color:#070836;
   font-size:2.3em;
   font-family: 'Crimson Text', serif;
-  padding-bottom:20px;
+  padding-bottom:50px;
 }
 .quote{
   color:white;
@@ -264,7 +264,7 @@ body>.container{
   font-family:"HelveticaNeue-CondensedBold", 'Helvetica', sans-serif;
   text-align:center;
   padding:10px;
-  margin-bottom:15px;
+  margin-bottom:40px;
 }
 .we-work ul{
   list-style: none;
@@ -341,7 +341,7 @@ body>.container{
   /*padding:5px 5px 5px 5px;*/
 }
 .faq_container{
-  padding-bottom:20px;
+  /*margin-bottom:40px;*/
   text-align:center;
   background-color:rgba(7, 8, 54, 0.7);
   background-color:rgba(7, 8, 54);
