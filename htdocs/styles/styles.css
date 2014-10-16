@@ -377,7 +377,7 @@ body>.container{
   padding:35px 0px 0px 0px;
   }
   .footer-contact{
-  padding:35px 0px 0px 50px;
+  padding:35px 0px 0px 0px;
   }
   #map{
     width:250px;
@@ -420,7 +420,7 @@ body>.container{
 }
 */
 .footer-contact img{
-  width:95px;
-  height:68px;
-  margin-left:20px;
+  width:100px;
+  height:58px;
+  margin:5px 0 0 15px;
 }
