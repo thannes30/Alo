@@ -9,12 +9,11 @@ $active.css('z-index',1).show().removeClass('active');//reset the z-index and un
 }
 
 function fadeInHome(){
-  $('.we-install, .safety').fadeIn(1250);
+  $('.we-install, .safety').fadeIn(1000);
 }
 
 $(window).load(function(){
   $('#background_cycler').fadeIn(1000);//fade the background back in once all the images are loaded
-    // run every 3.5s
     setInterval('cycleImages()', 4000);
-    setInterval('fadeInHome()', 2000)
+    setInterval('fadeInHome()', 2500)
 })
