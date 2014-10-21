@@ -375,8 +375,15 @@ body>.container{
 
 /*bootstrap media queries*/
 @media(max-width:767px){
+  .safety{
+    margin-top:40px;
+  }
+  .we-install{
+    margin-top:100px;
+  }
   .home.section{
-    margin-top:0px;
+    padding-top:0px;
+    height:650px;
   }
   .address{
   padding:35px 0px 0px 0px;
