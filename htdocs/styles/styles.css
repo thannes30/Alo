@@ -372,6 +372,10 @@ body>.container{
 .navbar-default .navbar-toggle .icon-bar{
   background-color:#070836;
 }
+.popup img{
+  margin-top:250px;
+  /*border: 10px solid black;*/
+}
 
 /*bootstrap media queries*/
 @media(max-width:767px){

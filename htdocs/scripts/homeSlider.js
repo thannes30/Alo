@@ -12,8 +12,13 @@ function fadeInHome(){
   $('.we-install, .safety').fadeIn(1000);
 }
 
+function fadeOutPopUp(){
+  $('.popup').fadeOut(1000)
+}
+
 $(window).load(function(){
   $('#background_cycler').fadeIn(1000);//fade the background back in once all the images are loaded
     setInterval('cycleImages()', 4000);
-    setInterval('fadeInHome()', 2500)
+    setInterval('fadeInHome()', 2500);
+    setInterval('fadeOutPopUp()',1000);
 })
