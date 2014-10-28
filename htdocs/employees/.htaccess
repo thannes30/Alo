@@ -1,4 +1,7 @@
+AuthName "Restricted Area - Alo Cinema Employees Only"
 AuthType Basic
-AuthName "Restricted Access - Alo Cinema Installers Employees Only"
-AuthUserFile /home/content/38/11060938/html/employees/.htpasswd
-Require valid-user
+AuthUserFile /var/www/vhosts/alocinema.com/httpdocs/employees/.htpasswd
+AuthGroupFile /dev/null
+<Files index.html>
+require valid-user
+</Files>
